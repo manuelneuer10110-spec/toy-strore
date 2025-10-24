@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 500px;
+}
+
+.nav-button {
+  padding: 13px 15px;
+  width: 127px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-button-num {
+  padding: 6px;
+  border-radius: 6px;
+  background-color: green;
+}
+
+.link {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  text-decoration: none;
+}
+
+.link-item {
+  text-decoration: none;
+}
+
+.toy-store-header {
+  background-image: url('./Frame\ \(5\).png');
+  /* color: ; */
+  height: 85vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toy-store-header-p {
+  color: #a5c926;
+}
+
+.toy-store-header-button {
+  background-color: green;
+  color: white;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  padding: 12px 28px;
+}
+
+.sections-center {
+  border-radius: 16px;
+  background-color: white;
+  width: 570px;
+  /* padding: 166px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.recomended-button {
+  background-color: white;
+  color: black;
+  border-radius: 12px;
+  padding: 12px;
+}
+.container-stuffed {
+  display: flex;
+  background-color: yellow;
+  padding: 25px 25px;
+  justify-content: center;
+  width: 570px;
+  border-radius: 12px;
+  margin: 0;
+  border-radius: 58px;
+}
+
+.recomended-button-2 {
+  background-color: white;
+  color: black;
+  border-radius: 50px;
+  padding: 12px;
+}
+
+.container-wooden {
+  display: flex;
+  background-color: #fb416b;
+  padding: 25px 25px;
+  justify-content: center;
+  width: 570px;
+  border-radius: 12px;
+  margin: 0;
+  border-radius: 58px;
+}
+
+.wrapper {
+  display: flex;
+  gap: 30px;
+  padding: 50px 50px;
+}
+
+ .container{
+    display: flex;
+    display: inline-block;
+ }
+
+
+ .passing-cards{
+    display: flex;
+    box-shadow: 0px 1px 2px 0px #00000026;
+    border-radius: 12px
+ 
+    
+ }
+
+ .container-passing{
+  display: flex;
+  gap: 70px;
+  width: 50px;
+ }
